@@ -21,7 +21,7 @@ public class TicketMachine
     /**
      * Create a machine that issues tickets of the given price.
      */
-    public TicketMachine(int cost)
+public TicketMachine(int cost)
     {
         price = cost;
         balance = 0;
@@ -38,10 +38,11 @@ public class TicketMachine
 
     /**
      * Return The amount of money already inserted for the next ticket.
+     * next ticket
      */
-    public int getBalance()
+    public void getBalance(int newBalance)
     {
-        return balance;
+       balance = newBalance;
     }
 
     /**
