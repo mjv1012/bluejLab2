@@ -36,9 +36,37 @@ I wouldn't be able to guess what the Book claass's fields might be; I wouldn't s
 Q21: 
 public Pet(String petsName)
 { 
-   
-
+  this.name = petsName;
+}
 Q23: One difference between the header of getBalance and getPrice is that one method uses int and the other uses void;
 When it comes to the body of getBalance method it uses = whereas getPrice method doesn't.
 Q24: "What is the balance of the ticket"
+Q25:
+Q26:
+Q27:
+Q28:
+Q29:
+Q30:
+Q31:
+Q32:
+Q33:
+Q34: public void setcurrentAge(int age)
+     {
+          this.currentage = age;
+     }
 
+Q35:  public void setalive(int boolean)
+      {
+          this.setalive = alive;
+      }
+
+Q36:
+Q37:
+Q38:
+Q39:
+Q40:
+Q41:
+Q42:
+Q44:
+Q45:
+Q46:
