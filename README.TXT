@@ -40,19 +40,20 @@ public Pet(String petsName)
 }
 Q23: One difference between the header of getBalance and getPrice is that one method uses int and the other uses void;
 When it comes to the body of getBalance method it uses = whereas getPrice method doesn't.
-Q24: "What is the balance of the ticket"
-Q25:
-Q26:
-Q27:
-Q28:
-Q29:
-Q30:
-Q31:
-Q32:
-Q33:
-Q34: public void setcurrentAge(int age)
+Q24: "What is amount in the ticket machine"
+Q25: Yes, everything in the body needs to be compiled in order to work. We can see that in the accessor method it now changed from void getAmount.
+Q27: Once I remove getPrice the error detects that it's not a statement.
+Q28: For getPrice it has an integer whereas printTicket has void.
+Q29: No, Both insertMoney and printTicket don't have return statements because it is a system output
+Q32: Yes, the method changes the value of balance since the object state is mutated.
+Q33:public void discount(int amount)
+{
+   price +price - amount;
+}
+
+Q34: public void setAge(int currentAge)
      {
-          this.currentage = age;
+          this.age = currentAge;
      }
 
 Q35:  public void setalive(int boolean)
@@ -60,12 +61,12 @@ Q35:  public void setalive(int boolean)
           this.setalive = alive;
       }
 
-Q36:
-Q37:
-Q38:
-Q39:
-Q40:
-Q41:
+Q36: 
+Q37: System.out.println("My cat has green eyes.");
+Q38: 
+Q39: The actual price of the ticket won't show meaning that th word "price will show since you won't be requesting the actual price.
+Q40: The # price and cents word will show since they're in quotation marks.
+Q41: 
 Q42:
 Q44:
 Q45:
