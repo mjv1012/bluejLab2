@@ -14,7 +14,7 @@ public class TicketMachine
     // The price of a ticket from this machine.
     private int price;
     // The amount of money entered by a customer so far.
-    private int balance;
+    private int amount;
     // The total amount of money collected by this machine.
     private int total;
 
@@ -24,7 +24,7 @@ public class TicketMachine
 public TicketMachine(int cost)
     {
         price = cost;
-        balance = 0;
+        amount = 0;
         total = 0;
     }
 
@@ -40,9 +40,9 @@ public TicketMachine(int cost)
      * Return The amount of money already inserted for the next ticket.
      * next ticket
      */
-    public void getBalance(int newBalance)
+    public void getAmount(int newAmount)
     {
-       balance = newBalance;
+       amount = newAmount;
     }
 
     /**
@@ -52,7 +52,7 @@ public TicketMachine(int cost)
     public void insertMoney(int amount)
     {
         if(amount > 0) {
-            balance = balance + amount;
+            amount = amount + amount;
         }
         else {
             System.out.println("Use a positive amount rather than: " + amount);
@@ -66,7 +66,7 @@ public TicketMachine(int cost)
      */
     public void printTicket()
     {
-        if(balance >= price) {
+        if(amount >= price) {
             // Simulate the printing of a ticket.
             System.out.println("##################");
             System.out.println("# The BlueJ Line");
@@ -78,11 +78,11 @@ public TicketMachine(int cost)
             // Update the total collected with the price.
             total = total + price;
             // Reduce the balance by the price.
-            balance = balance - price;
+            amount = amount - price;
         }
         else {
             System.out.printf("You must insert at least %d more cents.%n",
-                              price - balance);
+                              price - amount);
         }
     }
 
@@ -90,11 +90,11 @@ public TicketMachine(int cost)
      * Return the money in the balance.
      * The balance is cleared.
      */
-    public int refundBalance()
+    public int refundAmount()
     {
         int amountToRefund;
-        amountToRefund = balance;
-        balance = 0;
+        amountToRefund = amount;
+        amount = 0;
         return amountToRefund;
     }
 }
