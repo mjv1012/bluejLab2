@@ -82,5 +82,4 @@ Q41: public void showPrice(int price)
 
 Q42: Yes, they both show the same output due to both having the same method call but different values
 Q44: Once I created a ticket machine object in bluej it had an effect on the object. Meaning that it didn't have the same methods as the actual TciketMachine.
-Q45:
-Q46:
+Q46: No it doesn't need any parameteres since it has a total state and it's a mutator because it changes the state instead of getting data/information in any way.
