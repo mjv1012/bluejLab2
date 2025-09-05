@@ -61,13 +61,26 @@ Q35:  public void setalive(int boolean)
           this.setalive = alive;
       }
 
-Q36: 
+Q36: Due to the change the value of the price field return to a value of zero.
 Q37: System.out.println("My cat has green eyes.");
-Q38: 
+Q38: public void prompt(int newPrompt)
+    {
+        // please insert the correct amount of money 
+       
+        System.out.println("insert correct amount of money");
+        
+    }
+
 Q39: The actual price of the ticket won't show meaning that th word "price will show since you won't be requesting the actual price.
 Q40: The # price and cents word will show since they're in quotation marks.
-Q41: 
-Q42:
-Q44:
+Q41: public void showPrice(int price)
+    {
+        // the price of a ticket is xyz cents
+        
+        System.out.println("the price of a ticket is xyz cents");
+    }
+
+Q42: Yes, they both show the same output due to both having the same method call but different values
+Q44: Once I created a ticket machine object in bluej it had an effect on the object. Meaning that it didn't have the same methods as the actual TciketMachine.
 Q45:
 Q46:
